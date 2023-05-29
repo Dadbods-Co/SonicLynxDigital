@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "SonicLynxDigital",
+		template: "%s | SonicLynxDigital",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "",
 	openGraph: {
-		title: "chronark.com",
+		title: "SonicLynxDigital",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"",
+		url: "",
+		siteName: "SonicLynxDigital",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "",
 				width: 1920,
 				height: 1080,
 			},
@@ -36,10 +36,6 @@ export const metadata: Metadata = {
 			"max-image-preview": "large",
 			"max-snippet": -1,
 		},
-	},
-	twitter: {
-		title: "Chronark",
-		card: "summary_large_image",
 	},
 	icons: {
 		shortcut: "/favicon.png",
@@ -63,7 +59,6 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<head>
-				<Analytics />
 			</head>
 			<body
 				className={`bg-black ${
