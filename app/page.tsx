@@ -4,7 +4,7 @@ import Particles from "./components/particles";
 
 const servicesList = [
 	{ name: "Software Development"},
-	{ name: "Consutancy"},
+	{ name: "Consultancy"},
 	{ name: "Digitalization Initiatives"},
 	{ name: "Digital Business Cards"},
 ];
